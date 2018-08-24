@@ -2,7 +2,6 @@
   "name": "tiny-react-demo",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://robertquan.com/tiny-react-demo",
   "dependencies": {
     "@tinymce/tinymce-react": "^2.2.5",
     "react": "^16.4.2",
