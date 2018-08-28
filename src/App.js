@@ -18,6 +18,7 @@ class App extends React.Component {
         value={this.state.content}
         onEditorChange={this.handleEditorChange}
         apiKey='ivaxcw1envbsrbfyeifzwi4luqhftosxp5msla0g5owga4nq'
+        cloudChannel='4.6.7'
         init={{
           plugins: 'link image advcode tinymcespellchecker',
           spellchecker_language: 'en',
