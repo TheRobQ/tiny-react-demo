@@ -17,10 +17,10 @@ class App extends React.Component {
       <Editor
         value={this.state.content}
         onEditorChange={this.handleEditorChange}
-        apiKey='ivaxcw1envbsrbfyeifzwi4luqhftosxp5msla0g5owga4nq'
+        apiKey='YOURKEYHERE'
         cloudChannel='4.6.7'
         init={{
-          plugins: 'link image advcode tinymcespellchecker',
+          plugins: 'link image advcode tinymcespellchecker powerpaste',
           spellchecker_language: 'en',
           width: '75%',
           height: 440,
